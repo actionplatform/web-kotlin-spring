@@ -1,0 +1,15 @@
+[project]
+name = "web-kotlin-spring"
+type = "web"
+stack = "kotlin"
+template = "spring"
+ci = "github"
+language = "java"
+
+[source_host]
+kind = "github"
+repo = "actionplatform/web-kotlin-spring"
+
+[release]
+strategy = "semver"
+changelog = "conventional"
